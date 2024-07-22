@@ -1,6 +1,6 @@
 import React from 'react'
 import './app.css'
-//import Footer from './Components/Footer/Footer'                               
+import Footer from './Components/Footer/Footer'                               
 import Main from './Components/Main/Main'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
@@ -12,6 +12,7 @@ const App = () => {
       <Navbar/>
       <Home/>
       <Main/>
+      <Footer/>
     </>
   )
 }

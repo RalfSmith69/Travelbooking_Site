@@ -27,12 +27,13 @@
     .logo{
         color: var(--blackColor);
         font-weight: 600;
+        font-size: 20px;
         cursor: pointer;
         align-items: center;
         justify-content: center;
   
         .icon{
-            font-size: 25px;
+            font-size: 40px;
             color: var(--PrimaryColor);
             transform: translateY(5px);
   

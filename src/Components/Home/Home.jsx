@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import video from '../../Assets/Video.mp4' 
-//Icons to import
+//Icons to import =================>
 import {GrLocation} from "react-icons/gr";
 import { HiFilter } from "react-icons/hi";
 import { FiFacebook } from "react-icons/fi";
