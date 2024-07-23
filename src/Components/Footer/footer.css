@@ -25,13 +25,18 @@
   position: absolute;
   height: 100%;
   width: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  mix-blend-mode: hard-light;
 }
 .footer .videoDiv video {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  background: rgb(47, 106, 127);
 }
-.footer .videoDiv::after {
+.footer::after {
   content: "";
   position: absolute;
   background: rgba(10, 84, 107, 0.307);
@@ -41,7 +46,8 @@
   left: 0;
   mix-blend-mode: multiply;
 }
-.footer .secContent {
+
+.secContent {
   width: 100%;
   height: -moz-max-content;
   height: max-content;
@@ -54,26 +60,26 @@
   row-gap: 2rem;
   z-index: 100;
 }
-.footer .secContent .contactDiv {
+.secContent .contactDiv {
   justify-content: space-between;
   flex-direction: column;
   gap: 1rem;
 }
-.footer .secContent .contactDiv .text small {
+.secContent .contactDiv .text small {
   font-size: 13px;
   font-weight: 400;
   color: var(--whiteColor);
 }
-.footer .secContent .contactDiv .text h2 {
+.secContent .contactDiv .text h2 {
   color: var(--whiteColor);
   font-size: 1.8rem;
 }
-.footer .secContent .contactDiv .inputDiv {
+.secContent .contactDiv .inputDiv {
   width: 100%;
   gap: 1rem;
   flex-direction: column;
 }
-.footer .secContent .contactDiv .inputDiv input {
+.secContent .contactDiv .inputDiv input {
   width: 100%;
   padding: 0.5rem 0.6rem;
   border-radius: 3rem;
@@ -82,26 +88,26 @@
   background: transparent;
   color: var(--whiteColor);
 }
-.footer .secContent .contactDiv .inputDiv input::-moz-placeholder {
+.secContent .contactDiv .inputDiv input::-moz-placeholder {
   color: var(--whiteColor);
   opacity: 0.5;
 }
-.footer .secContent .contactDiv .inputDiv input::placeholder {
+.secContent .contactDiv .inputDiv input::placeholder {
   color: var(--whiteColor);
   opacity: 0.5;
 }
-.footer .secContent .contactDiv .inputDiv .btn {
+.secContent .contactDiv .inputDiv .btn {
   width: 100%;
   justify-content: center;
   color: var(--whiteColor);
   font-weight: 500;
   gap: 0.5rem;
 }
-.footer .secContent .contactDiv .inputDiv .btn .icon {
+.secContent .contactDiv .inputDiv .btn .icon {
   font-size: 18px;
   color: var(--whiteColor);
 }
-.footer .secContent .footerCard {
+.secContent .footerCard {
   position: relative;
   padding: 1rem 1rem 4rem;
   gap: 2rem;
@@ -113,67 +119,67 @@
   align-items: flex-start;
   overflow: hidden;
 }
-.footer .secContent .footerCard .footerIntro {
+.secContent .footerCard .footerIntro {
   flex-basis: 50%;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   row-gap: 0.5rem;
 }
-.footer .secContent .footerCard .logoDiv .logo {
+.secContent .footerCard .logoDiv .logo {
   color: var(--blackColor);
   font-weight: 600;
 }
-.footer .secContent .footerCard .logoDiv .logo .icon {
+.secContent .footerCard .logoDiv .logo .icon {
   font-size: 25px;
   color: var(--PrimaryColor);
   margin-right: 10px;
 }
-.footer .secContent .footerCard .footerParagraph {
+.secContent .footerCard .footerParagraph {
   font-size: 13px;
   color: var(--textColor);
 }
-.footer .secContent .footerCard .footerSocials {
+.secContent .footerCard .footerSocials {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
 }
-.footer .secContent .footerCard .footerSocials .icon {
+.secContent .footerCard .footerSocials .icon {
   color: var(--blackColor);
   font-size: 20px;
 }
-.footer .secContent .footerCard .footerSocials .icon:hover {
+.secContent .footerCard .footerSocials .icon:hover {
   color: var(--PrimaryColor);
 }
-.footer .secContent .footerCard .footerLinks {
+.secContent .footerCard .footerLinks {
   flex-basis: 50%;
   width: 100%;
   gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
 }
-.footer .secContent .footerCard .footerLinks .linkGroup .groupTitle {
+.secContent .footerCard .footerLinks .linkGroup .groupTitle {
   display: block;
   font-weight: 600;
   color: var(--blackColor);
   margin-bottom: 0.5rem;
 }
-.footer .secContent .footerCard .footerLinks .linkGroup .footerList {
+.secContent .footerCard .footerLinks .linkGroup .footerList {
   font-size: 15px;
   color: var(--textColor);
   transition: 0.3sec ease-in-out;
 }
-.footer .secContent .footerCard .footerLinks .linkGroup .footerList .icon {
+.secContent .footerCard .footerLinks .linkGroup .footerList .icon {
   font-size: 15px;
   color: var(--greyText);
 }
-.footer .secContent .footerCard .footerLinks .linkGroup .footerList:hover {
+.secContent .footerCard .footerLinks .linkGroup .footerList:hover {
   color: var(--PrimaryColor);
   transform: translateX(10px);
 }
-.footer .secContent .footerCard .footerLinks .linkGroup .footerList:hover .icon {
+.secContent .footerCard .footerLinks .linkGroup .footerList:hover .icon {
   color: var(--SecondaryColor);
 }
-.footer .secContent .footerCard .footerDiv {
+.secContent .footerCard .footerDiv {
   flex-direction: column;
   position: absolute;
   bottom: 0;
@@ -182,7 +188,7 @@
   background: var(--SecondaryColor);
   padding: 0.5rem 2rem;
 }
-.footer .secContent .footerCard .footerDiv small {
+.secContent .footerCard .footerDiv small {
   font-size: 10px;
   color: var(--whiteColor);
 }/*# sourceMappingURL=footer.css.map */

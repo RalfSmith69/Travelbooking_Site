@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './footer.css'   
 import video2 from '../../Assets/Video_2.mp4'
+//Icons to import =================>
 import { FiSend } from "react-icons/fi";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -9,23 +10,34 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaTripadvisor } from "react-icons/fa";
 import { FiChevronRight } from "react-icons/fi";
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
+
 const Footer = () => {
+
+// A react hook to add a scroll animation......
+
+    useEffect(() => {
+      Aos.init({duration: 2000})
+  }, [])
+
   return (
     <section className="footer">
-      <div className="videoDiv">
+      <div className="videoDiv overlay">
         <video src={video2} muted autoPlay loop type="video/mp4"></video>
       </div>
 
       <div className="secContent container">
         <div className="contactDiv flex">
-          <div className="text">
+          <div data-aos="fade-up" className="text">
             <small>Bleibe in Kontakt</small>
             <h2>Reise mit uns</h2>
           </div>
 
           <div className="inputDiv flex">
-            <input type="email" placeholder='E-Mail Adresse eingeben. . .' />
-            <button className='btn flex' type='submit'>
+            <input data-aos="fade-up" type="email" placeholder='E-Mail Adresse eingeben. . .' />
+            <button data-aos="fade-up" className='btn flex' type='submit'>
               SEND <FiSend className="icon" />
             </button>
           </div>
@@ -39,24 +51,24 @@ const Footer = () => {
               </a>
             </div>
 
-            <div className="footerParagraph">
+            <div data-aos="fade-up" className="footerParagraph">
               Reisen Sie mit ` fern. ´ in exotische Welten. Entdecken Sie faszinierende Kulturen, 
               atemberaubende Landschaften und einzigartige Abenteuer. Lassen Sie sich von unseren 
               Empfehlungen inspirieren und gestalten Sie Ihre unvergessliche Reise in die Ferne.
             </div>
 
-            <div className="footerSocials flex">
-            <AiOutlineTwitter className="icon"/>
-            <AiFillYoutube className="icon"/>
-            <AiFillInstagram className="icon"/>
-            <FaTripadvisor className="icon"/>
+            <div data-aos="fade-up" className="footerSocials flex">
+            <a href='https://x.com/fernunihagen'><AiOutlineTwitter className="icon"/></a>
+            <a href='https://www.youtube.com/@fern-tv'><AiFillYoutube className="icon"/></a>
+            <a href='https://www.instagram.com/unter.wegs/'><AiFillInstagram className="icon"/></a>
+            <a href='https://www.tripadvisor.de/'><FaTripadvisor className="icon"/></a>
             </div>
           </div>
 
           <div className="footerLinks grid">
               
               {/* Group One */}
-              <div className="linkGroup">
+              <div data-aos="fade-up" data-aos-duration="3000" className="linkGroup">
                 <span className="groupTitle">
                   UNSERE AGENTUR
                 </span>
@@ -88,7 +100,7 @@ const Footer = () => {
               </div> 
 
                {/* Group Two */}
-               <div className="linkGroup">
+               <div data-aos="fade-up" data-aos-duration="4000" className="linkGroup">
                 <span className="groupTitle">
                   PARTNER
                 </span>
@@ -120,7 +132,7 @@ const Footer = () => {
               </div> 
 
                {/* Group Three */}
-               <div className="linkGroup">
+               <div data-aos="fade-up" data-aos-duration="5000" className="linkGroup">
                 <span className="groupTitle">
                   LAST MINUTE
                 </span>

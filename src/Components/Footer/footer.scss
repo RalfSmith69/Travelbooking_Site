@@ -25,10 +25,17 @@
         position: absolute ;
         height: 100%;
         width: 100%;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        mix-blend-mode: hard-light;
 
         video{
             height: 100%;
-            object-fit: cover; 
+            object-fit: cover;
+            background: rgba(47, 106, 127);
+        
+    } 
         }
 
         &::after{
@@ -184,8 +191,6 @@
                         .icon{
                             font-size: 15px;
                             color: var(--greyText);
-                           
-                            
                         }
 
                         &:hover{
@@ -216,6 +221,7 @@
                 }
 
             }
+ 
         }
+
     }
-}

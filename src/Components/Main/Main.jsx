@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./main.css";
 import img from "../../Assets/img (1).jpg";
 import img2 from "../../Assets/img (2).jpg";
@@ -13,6 +13,9 @@ import img9 from "../../Assets/img (9).jpg";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { HiOutlineClipboardCheck } from "react-icons/hi";
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Data = [
   {
     id: 1,
@@ -22,7 +25,7 @@ const Data = [
     grade: 'FERNE ORTE ERLEBEN ',
     fees: "500€",
     description:
-      "Bora Bora, der Inbegriff der Romantik, ist eines der besten Reiseziele der Welt. Dieser Ort ist bekannt für seine luxuriösen Aufenthalte und abenteuerlichen Aktivitäten.",
+      "Bora Bora, der Inbegriff der Romantik, ist eines der besten Reiseziele der Welt. Dieser Ort ist bekannt für seine luxuriösen Aufenthalte und abenteuerlichen Aktivitäten. Das Tauchen in den kristallklaren Lagunen und das Entspannen an den weißen Sandstränden machen Bora Bora zu einem unvergesslichen Erlebnis.",
   },
   
   {
@@ -43,7 +46,7 @@ const Data = [
   location: 'Australien',
   grade: 'FERNE ORTE ERLEBEN',
   fees: '700€',
-  description: 'Das Great Barrier Reef, ein UNESCO-Weltnaturerbe, erstreckt sich entlang der australischen Küste. Entdecken Sie die farbenfrohe Unterwasserwelt, tauchen Sie ein in dieses Paradies aus Korallen und exotischen Meeresbewohnern.'
+  description: 'Das Great Barrier Reef, ein UNESCO-Weltnaturerbe, erstreckt sich entlang der australischen Küste. Entdecken Sie die farbenfrohe Unterwasserwelt, tauchen Sie ein in dieses Paradies aus Korallen und exotischen Meeresbewohnern. Tauchen ist hier ein unvergessliches Erlebnis.'
 },
 
 {
@@ -108,10 +111,18 @@ const Data = [
 ]; 
 
 const Main = () => {
+
+   // A react hook to add a scroll animation......
+
+    useEffect(() => {
+    Aos.init({duration: 2000})
+  }, [])
+
+
   return (
     <section className="main container section">
       <div className="secTitle">
-        <h3 className="title">Meist besuchte Urlaubziele</h3>
+        <h3 data-aos="fade-right" className="title">Meist besuchte Urlaubziele</h3>
       </div>
 
       <div className="secContent grid">
@@ -123,7 +134,7 @@ const Main = () => {
         {Data.map(
           ({ id, imgSrc, destTitle, location, grade, fees, description }) => {
             return (
-              <div key={id} className="singleDestination">
+              <div key={id} data-aos="fade-up" className="singleDestination">
                 {/*Here it will return single id from the map array */}
 
                 <div className="imageDiv">

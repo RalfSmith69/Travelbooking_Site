@@ -2,21 +2,24 @@ import React, {useEffect} from 'react'
 import './home.css'
 import video from '../../Assets/Video.mp4' 
 //Icons to import =================>
-import {GrLocation} from "react-icons/gr";
-import { HiFilter } from "react-icons/hi";
-import { FiFacebook } from "react-icons/fi";
-import { BsInstagram } from "react-icons/bs";
-import { TbBrandTripadvisor } from "react-icons/tb";
-import { BsListTask } from "react-icons/bs";
-import { TbApps } from "react-icons/tb";
+import {GrLocation} from "react-icons/gr"
+import { HiFilter } from "react-icons/hi"
+import { FiFacebook } from "react-icons/fi"
+import { BsInstagram } from "react-icons/bs"
+import { TbBrandTripadvisor } from "react-icons/tb"
+import { BsListTask } from "react-icons/bs"
+import { TbApps } from "react-icons/tb"
 
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 const Home = () => {
-// Create a react hook to add a scroll animation......
+// A react hook to add a scroll animation......
 
+useEffect(() => {
+    Aos.init({duration: 2000})
+}, [])
 
   
   return (
@@ -27,17 +30,17 @@ const Home = () => {
       <div className= "homeContent container">
         <div className="textDiv">
           
-          <span className ="smallText">
+          <span data-aos="fade-up" className ="smallText">
             Unsere Pakete
           </span>
           
-          <h1 className ="homeTitle">
+          <h1 data-aos="fade-up" className ="homeTitle">
             Suche Dein Ferienziel
           </h1>
         
         </div>
 
-        <div className="cardDiv grid">
+        <div data-aos="fade-up" className="cardDiv grid">
         <div className="destinationInput">
               <label htmlFor="city">Suche Dein Reiseziel:</label>
               <div className="input flex">
@@ -69,11 +72,11 @@ const Home = () => {
             </div>
         </div>
 
-        <div className="homeFooterIcons flex">
+        <div data-aos="fade-up" className="homeFooterIcons flex">
           <div className="rightIcons">
-          <FiFacebook className="icon"/>
-          <BsInstagram className="icon"/>
-          <TbBrandTripadvisor className="icon" />
+          <a href="https://www.facebook.com/groups/122992588439298/?hoisted_section_header_type=recently_seen&multi_permalinks=1698993314172543"><FiFacebook className="icon"/></a>
+          <a href='https://www.instagram.com/explorer.fernreisen/'><BsInstagram className="icon"/></a>
+          <a href='https://www.tripadvisor.de/'><TbBrandTripadvisor className="icon" /></a>
           </div>
           
           <div className="leftIcons">
