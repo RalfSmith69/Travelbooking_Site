@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './home.css'
 import video from '../../Assets/Video.mp4' 
 //Icons to import =================>
@@ -10,7 +10,14 @@ import { TbBrandTripadvisor } from "react-icons/tb";
 import { BsListTask } from "react-icons/bs";
 import { TbApps } from "react-icons/tb";
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+
 const Home = () => {
+// Create a react hook to add a scroll animation......
+
+
   
   return (
     <section className="home">
