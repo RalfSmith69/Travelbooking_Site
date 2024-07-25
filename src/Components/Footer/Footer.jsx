@@ -56,10 +56,10 @@ const Footer = () => {
             </div>
 
             <div data-aos="fade-up" className="footerSocials flex">
-            <a href='https://x.com/fernunihagen'><AiOutlineTwitter className="icon"/></a>
-            <a href='https://www.youtube.com/@fern-tv'><AiFillYoutube className="icon"/></a>
-            <a href='https://www.instagram.com/unter.wegs/'><AiFillInstagram className="icon"/></a>
-            <a href='https://www.tripadvisor.de/'><FaTripadvisor className="icon"/></a>
+            <a href='https://x.com/fernunihagen' target="_blank"><AiOutlineTwitter className="icon"/></a>
+            <a href='https://www.youtube.com/@fern-tv' target="_blank"><AiFillYoutube className="icon"/></a>
+            <a href='https://www.instagram.com/unter.wegs/'target="_blank" ><AiFillInstagram className="icon"/></a>
+            <a href='https://www.tripadvisor.de/' target="_blank"><FaTripadvisor className="icon"/></a>
             </div>
           </div>
 
