@@ -187,10 +187,13 @@
 }
 @media screen and (min-width: 940px) {
   .home {
-    height: 70vh;
+    height: 85vh;
   }
 }
 @media screen and (min-width: 1240px) {
+  .home {
+    height: 95vh;
+  }
   .home .homeContent {
     padding-left: 0;
     padding-right: 0;

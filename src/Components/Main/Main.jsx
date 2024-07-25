@@ -21,11 +21,11 @@ const Data = [
     id: 1,
     imgSrc: img,
     destTitle: "Bora Bora",
-    location: "Französich Polynesien",
+    location: "Französisch Polynesien",
     grade: 'FERNE ORTE ERLEBEN ',
     fees: "500€",
     description:
-      "Bora Bora, der Inbegriff der Romantik, ist eines der besten Reiseziele der Welt. Dieser Ort ist bekannt für seine luxuriösen Aufenthalte und abenteuerlichen Aktivitäten. Das Tauchen in den kristallklaren Lagunen und das Entspannen an den weißen Sandstränden machen Bora Bora zu einem unvergesslichen Erlebnis.",
+      "Bora Bora, der Inbegriff der Romantik, gehört zu den besten Reisezielen weltweit. Bekannt für luxuriöse Aufenthalte und abenteuerliche Aktivitäten, bietet es kristallklare Lagunen zum Tauchen und weiße Sandstrände zum Entspannen. Bora Bora garantiert ein unvergessliches Erlebnis und ist ideal für eine traumhafte Auszeit.",
   },
   
   {
@@ -35,7 +35,7 @@ const Data = [
     location: 'Peru',
     grade: 'FERNE ORTE ERLEBEN ',
     fees: '600€',
-    description: 'Machu Picchu, die verlorene Stadt der Inka, thront majestätisch in den Anden Perus. Entdecken Sie diese historische Stätte, umgeben von atemberaubender Natur und mysteriöser Vergangenheit, ein Muss für jeden Reisenden.'
+    description: 'Machu Picchu, die verlorene Stadt der Inka, thront majestätisch in den Anden Perus. Entdecken Sie diese historische Stätte, umgeben von atemberaubender Natur und geheimnisvoller Vergangenheit. Ein Muss für jeden Reisenden, der sich von der faszinierenden Mystik und den Wundern dieses Ortes verzaubern lassen möchte.'
 },
 
 
@@ -46,17 +46,17 @@ const Data = [
   location: 'Australien',
   grade: 'FERNE ORTE ERLEBEN',
   fees: '700€',
-  description: 'Das Great Barrier Reef, ein UNESCO-Weltnaturerbe, erstreckt sich entlang der australischen Küste. Entdecken Sie die farbenfrohe Unterwasserwelt, tauchen Sie ein in dieses Paradies aus Korallen und exotischen Meeresbewohnern. Tauchen ist hier ein unvergessliches Erlebnis.'
+  description: 'Das Great Barrier Reef, ein UNESCO-Weltnaturerbe, erstreckt sich entlang der australischen Küste. Entdecken Sie die farbenfrohe Unterwasserwelt und tauchen Sie ein in dieses Paradies aus Korallen und exotischen Meeresbewohnern. Hier wird das Tauchen zu einem unvergesslichen Erlebnis voller faszinierender Eindrücke.'
 },
 
 {
   id:4,
   imgSrc: img4,
-  destTitle: 'Kappdokien',
+  destTitle: 'Kappadokien"',
   location: 'Türkei',
   grade: 'FERNE ORTE ERLEBEN ',
   fees: '800€',
-  description: 'Kappadokien, bekannt für seine atemberaubenden Felsformationen und Höhlenstädte, liegt im Herzen der Türkei. Entdecken Sie die faszinierende Landschaft bei einer Heißluftballonfahrt und erleben Sie die einzigartige Geschichte dieser Region.'
+  description: 'Kappadokien, bekannt für seine atemberaubenden Felsformationen und Höhlenstädte, liegt im Herzen der Türkei. Entdecken Sie die faszinierende Landschaft bei einer Heißluftballonfahrt und erleben Sie die beeindruckende Geschichte dieser Region. Ein unvergessliches Abenteuer erwartet Sie in diesem einzigartigen Teil der Welt.'
 },
 
 {
@@ -66,7 +66,7 @@ const Data = [
   location: 'Mexiko',
   grade: 'FERNE ORTE ERLEBEN ',
   fees: '1100€',
-  description: 'Guanajuato, eine charmante Kolonialstadt in Mexiko, besticht durch ihre bunten Häuser und verwinkelten Gassen. Erkunden Sie die historischen Bergwerke, lebhaften Märkte und genießen Sie die lebendige Kultur und Traditionen dieser Region.'
+  description: 'Guanajuato, eine charmante Kolonialstadt in Mexiko, besticht durch ihre bunten Häuser und verwinkelten Gassen. Erkunden Sie die historischen Bergwerke, Gebäude, Menschen und lebhaften Märkte und genießen Sie die lebendige Kultur sowie die faszinierenden Traditionen dieser schönen, einzigartigen und historischen Region.'
 },
 
 {
@@ -76,7 +76,7 @@ const Data = [
   location: 'Italien',
   grade: 'FERNE ORTE ERLEBEN',
   fees: '840€',
-  description: 'Die Cinque Terre, fünf malerische Dörfer an der italienischen Riviera, bieten atemberaubende Küstenlandschaften und farbenfrohe Häuser. Wandern Sie entlang der Klippenpfade, genießen Sie lokale Köstlichkeiten und das mediterrane Flair.'
+  description: 'Die Cinque Terre, fünf malerische Dörfer an der italienischen Riviera, bieten atemberaubende Küstenlandschaften und farbenfrohe Häuser. Wandern Sie entlang der beeindruckenden Klippenpfade, genießen Sie köstliche lokale Spezialitäten und erleben Sie das unverwechselbare mediterrane Flair dieser charmanten Region.'
 },
 
 {
@@ -86,7 +86,7 @@ const Data = [
   location: 'Kambodscha',
   grade: 'FERNE ORTE ERLEBEN ',
   fees: '840€',
-  description: 'Angkor Wat, die größte religiöse Tempelanlage der Welt, liegt in Kambodscha und beeindruckt mit ihrer majestätischen Architektur und kunstvollen Reliefs. Erleben Sie den Sonnenaufgang über den alten Türmen und tauchen Sie ein in die Geschichte der Khmer-Kultur.'
+  description: 'Angkor Wat, die größte religiöse Tempelanlage der Welt, liegt in Kambodscha und beeindruckt mit ihrer majestätischen Architektur und kunstvollen Reliefs. Erleben Sie den atemberaubenden Sonnenaufgang über den alten Türmen und tauchen Sie ein in die reiche Geschichte der Khmer-Kultur. Ein unvergessliches Erlebnis erwartet Sie. Das Sie nie vergessen.'
 },
 
 {
@@ -96,7 +96,7 @@ const Data = [
   location: 'Indien',
   grade: 'FERNE ORTE ERLEBEN',
   fees: '900€',
-  description: 'Der Taj Mahal, ein Meisterwerk der Mughal-Architektur in Indien, steht als Symbol ewiger Liebe. Besuchen Sie dieses beeindruckende Marmormausoleum, umgeben von herrlichen Gärten und reflektierenden Wasserbecken, ein unvergessliches Erlebnis.'
+  description: 'Der Taj Mahal, ein Meisterwerk der indischen Mughal-Architektur in Indien, steht als Symbol ewiger Liebe. Besuchen Sie dieses beeindruckende Marmormausoleum, umgeben von herrlichen Gärten und reflektierenden Wasserbecken. Erleben Sie die atemberaubende Schönheit und das romantische Flair, das diesen Ort zu einem unvergesslichen Erlebnis macht.'
 },
 
 {
@@ -106,7 +106,7 @@ const Data = [
   location: 'Indonesien',
   grade: 'FERNE ORTE ERLEBEN ',
   fees: '500€',
-  description: 'Der Taj Mahal, ein Meisterwerk der Mughal-Architektur in Indien, steht als Symbol ewiger Liebe. Besuchen Sie dieses beeindruckende Marmormausoleum, umgeben von herrlichen Gärten und reflektierenden Wasserbecken, ein unvergessliches Erlebnis.'
+  description: 'Bali, die „Insel der Götter“ in Indonesien, verzaubert mit traumhaften Stränden, üppigen Reisterrassen und lebendiger Kultur. Entdecken Sie beeindruckende Tempel, genießen Sie köstliche lokale Küche und entspannen Sie in luxuriösen Resorts. Erleben Sie die einzigartige Mischung aus Tradition und Natur, die Bali zu einem unvergesslichen Reiseziel für Erholung macht.'
 }, 
 ]; 
 
@@ -122,7 +122,7 @@ const Main = () => {
   return (
     <section className="main container section">
       <div className="secTitle">
-        <h3 data-aos="fade-right" className="title">Meist besuchte Urlaubziele</h3>
+        <h3 data-aos="fade-right" className="title">Meist besuchte Urlaubsziele</h3>
       </div>
 
       <div className="secContent grid">

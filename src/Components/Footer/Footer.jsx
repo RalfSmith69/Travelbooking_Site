@@ -52,9 +52,7 @@ const Footer = () => {
             </div>
 
             <div data-aos="fade-up" className="footerParagraph">
-              Reisen Sie mit ` fern. ´ in exotische Welten. Entdecken Sie faszinierende Kulturen, 
-              atemberaubende Landschaften und einzigartige Abenteuer. Lassen Sie sich von unseren 
-              Empfehlungen inspirieren und gestalten Sie Ihre unvergessliche Reise in die Ferne.
+            Reisen Sie mit `fern.´ in exotische Welten. Entdecken Sie faszinierende Kulturen, atemberaubende Landschaften und einzigartige Abenteuer. Lassen Sie sich von unseren Empfehlungen inspirieren und gestalten Sie Ihre unvergessliche Reise in die Ferne. Ob tropische Strände, historische Stätten oder pulsierende Metropolen – bei `fern.´ finden Sie die besten Reiseziele und Insider-Tipps. Erleben Sie authentische Begegnungen und sammeln Sie unvergessliche Erinnerungen. Mit `fern.´ wird jede Reise zu einem außergewöhnlichen Erlebnis. Starten Sie Ihr nächstes Abenteuer jetzt und lassen Sie sich von `fern.´ verzaubern. Ihre Traumreise beginnt hier und jetzt!
             </div>
 
             <div data-aos="fade-up" className="footerSocials flex">
