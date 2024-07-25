@@ -16,8 +16,10 @@ import axios from 'axios';
 const Home = () => {
   const [sliderValue, setSliderValue] = useState(100.00);
   const [city, setCity] = useState("");
+  const [weather, setWeather] = useState(null);
 
-  const API_KEY = '30fd47fe685046de9d64b8012d7568f5'; // Ihr OpenCage API-Schlüssel
+  const OPENCAGE_API_KEY = '30fd47fe685046de9d64b8012d7568f5'; // Ihr OpenCage API-Schlüssel
+  const OPENWEATHERMAP_API_KEY = 'bd504cdc986eff48255d85a1dcd1785f'; // Ihr OpenWeatherMap API-Schlüssel
 
   const handleSliderChange = (value) => {
     setSliderValue(parseFloat(value).toFixed(2));
@@ -25,10 +27,17 @@ const Home = () => {
 
   const handleLocationClick = async () => {
     try {
-      const response = await axios.get(`https://api.opencagedata.com/geocode/v1/json?q=${city}&key=${API_KEY}`);
-      if (response.data.results.length > 0) {
-        const country = response.data.results[0].components.country;
+      const geoResponse = await axios.get(`https://api.opencagedata.com/geocode/v1/json?q=${city}&key=${OPENCAGE_API_KEY}`);
+      if (geoResponse.data.results.length > 0) {
+        const result = geoResponse.data.results[0];
+        const country = result.components.country;
+        const lat = result.geometry.lat;
+        const lng = result.geometry.lng;
         setCity(`${city}, ${country}`);
+
+        // Wetterinformationen abrufen
+        const weatherResponse = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${OPENWEATHERMAP_API_KEY}&units=metric`);
+        setWeather(weatherResponse.data);
       } else {
         alert("Stadt nicht gefunden");
       }
@@ -101,9 +110,17 @@ const Home = () => {
 
           <div className="searchOptions flex">
             <HiFilter className="icon" />
-            <span>SPEICHER FILTER</span>
+            <span>MEHR FILTER</span>
           </div>
         </div>
+
+        {weather && (
+          <div data-aos="fade-up" className="weatherInfo">
+            <h2>Aktuelles Wetter in {city}:</h2>
+            <p>Temperatur: {weather.main.temp}°C</p>
+            <p>Wetter: {weather.weather[0].description}</p>
+          </div>
+        )}
 
         <div data-aos="fade-up" className="homeFooterIcons flex">
           <div className="rightIcons">
