@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Travelbooking_Site/static/css/main.c5291ca9.css",
+    "main.js": "/Travelbooking_Site/static/js/main.04a1b7e2.js",
+    "static/media/Video.mp4": "/Travelbooking_Site/static/media/Video.4efcbe278d8d061270ed.mp4",
+    "static/media/Video_2.mp4": "/Travelbooking_Site/static/media/Video_2.8908eba8feff8920842b.mp4",
+    "static/media/img (2).jpg": "/Travelbooking_Site/static/media/img (2).103bbd92843ed9416c0f.jpg",
+    "static/media/img (5).jpg": "/Travelbooking_Site/static/media/img (5).5bef7772cfada2d0b69d.jpg",
+    "static/media/img (7).jpg": "/Travelbooking_Site/static/media/img (7).9627a931e8ae43c9594a.jpg",
+    "static/media/img (6).jpg": "/Travelbooking_Site/static/media/img (6).4a80770eeed010f5ea78.jpg",
+    "static/media/img (8).jpg": "/Travelbooking_Site/static/media/img (8).73565eedd2810ed8cab1.jpg",
+    "static/media/img (3).jpg": "/Travelbooking_Site/static/media/img (3).304b7d6b5a58cca96e70.jpg",
+    "static/media/img (9).jpg": "/Travelbooking_Site/static/media/img (9).1ef04377f7b1cc237b8d.jpg",
+    "static/media/img (1).jpg": "/Travelbooking_Site/static/media/img (1).8bab9abd3b73bc79584f.jpg",
+    "static/media/img (4).jpg": "/Travelbooking_Site/static/media/img (4).9122b76b8169dc0974fc.jpg",
+    "index.html": "/Travelbooking_Site/index.html",
+    "main.c5291ca9.css.map": "/Travelbooking_Site/static/css/main.c5291ca9.css.map",
+    "main.04a1b7e2.js.map": "/Travelbooking_Site/static/js/main.04a1b7e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5291ca9.css",
+    "static/js/main.04a1b7e2.js"
+  ]
+}
