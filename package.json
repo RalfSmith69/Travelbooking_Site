@@ -40,5 +40,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://RalfSmith69.github.io/Travelbooking_Site"
+  "homepage": "https://RalfSmith69.github.io/Travelbooking_Site",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
