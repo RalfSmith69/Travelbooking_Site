@@ -23,7 +23,7 @@ const Data = [
     destTitle: "Bora Bora",
     location: "Französisch Polynesien",
     grade: 'FERNE ORTE ERLEBEN ',
-    fees: "500€",
+    fees: "5000€",
     description:
       "Bora Bora, der Inbegriff der Romantik, gehört zu den besten Reisezielen weltweit. Bekannt für luxuriöse Aufenthalte und abenteuerliche Aktivitäten, bietet es kristallklare Lagunen zum Tauchen und weiße Sandstrände zum Entspannen. Bora Bora garantiert ein unvergessliches Erlebnis und ist ideal für eine traumhafte Auszeit.",
   },
@@ -34,7 +34,7 @@ const Data = [
     destTitle: 'Machu Picchu',
     location: 'Peru',
     grade: 'FERNE ORTE ERLEBEN ',
-    fees: '600€',
+    fees: '3100€',
     description: 'Machu Picchu, die verlorene Stadt der Inka, thront majestätisch in den Anden Perus. Entdecken Sie diese historische Stätte, umgeben von atemberaubender Natur und geheimnisvoller Vergangenheit. Ein Muss für jeden Reisenden, der sich von der faszinierenden Mystik und den Wundern dieses Ortes verzaubern lassen möchte.'
 },
 
@@ -45,7 +45,7 @@ const Data = [
   destTitle: 'Great Barrier Reef',
   location: 'Australien',
   grade: 'FERNE ORTE ERLEBEN',
-  fees: '700€',
+  fees: '4000€',
   description: 'Das Great Barrier Reef, ein UNESCO-Weltnaturerbe, erstreckt sich entlang der australischen Küste. Entdecken Sie die farbenfrohe Unterwasserwelt und tauchen Sie ein in dieses Paradies aus Korallen und exotischen Meeresbewohnern. Hier wird das Tauchen zu einem unvergesslichen Erlebnis voller faszinierender Eindrücke.'
 },
 
@@ -55,7 +55,7 @@ const Data = [
   destTitle: 'Kappadokien"',
   location: 'Türkei',
   grade: 'FERNE ORTE ERLEBEN ',
-  fees: '800€',
+  fees: '1100€',
   description: 'Kappadokien, bekannt für seine atemberaubenden Felsformationen und Höhlenstädte, liegt im Herzen der Türkei. Entdecken Sie die faszinierende Landschaft bei einer Heißluftballonfahrt und erleben Sie die beeindruckende Geschichte dieser Region. Ein unvergessliches Abenteuer erwartet Sie in diesem einzigartigen Teil der Welt.'
 },
 
@@ -65,7 +65,7 @@ const Data = [
   destTitle: 'Guanajuato',
   location: 'Mexiko',
   grade: 'FERNE ORTE ERLEBEN ',
-  fees: '1100€',
+  fees: '1900€',
   description: 'Guanajuato, eine charmante Kolonialstadt in Mexiko, besticht durch ihre bunten Häuser und verwinkelten Gassen. Erkunden Sie die historischen Bergwerke, Gebäude, Menschen und lebhaften Märkte und genießen Sie die lebendige Kultur sowie die faszinierenden Traditionen dieser schönen, einzigartigen und historischen Region.'
 },
 
@@ -75,7 +75,7 @@ const Data = [
   destTitle: 'Cinque Terre',
   location: 'Italien',
   grade: 'FERNE ORTE ERLEBEN',
-  fees: '840€',
+  fees: '950€',
   description: 'Die Cinque Terre, fünf malerische Dörfer an der italienischen Riviera, bieten atemberaubende Küstenlandschaften und farbenfrohe Häuser. Wandern Sie entlang der beeindruckenden Klippenpfade, genießen Sie köstliche lokale Spezialitäten und erleben Sie das unverwechselbare mediterrane Flair dieser charmanten Region.'
 },
 
@@ -85,7 +85,7 @@ const Data = [
   destTitle: 'Angkor Wat',
   location: 'Kambodscha',
   grade: 'FERNE ORTE ERLEBEN ',
-  fees: '840€',
+  fees: '2100€',
   description: 'Angkor Wat, die größte religiöse Tempelanlage der Welt, liegt in Kambodscha und beeindruckt mit ihrer majestätischen Architektur und kunstvollen Reliefs. Erleben Sie den atemberaubenden Sonnenaufgang über den alten Türmen und tauchen Sie ein in die reiche Geschichte der Khmer-Kultur. Ein unvergessliches Erlebnis erwartet Sie. Das Sie nie vergessen.'
 },
 
@@ -95,7 +95,7 @@ const Data = [
   destTitle: 'Taj Mahal',
   location: 'Indien',
   grade: 'FERNE ORTE ERLEBEN',
-  fees: '900€',
+  fees: '1990€',
   description: 'Der Taj Mahal, ein Meisterwerk der indischen Mughal-Architektur in Indien, steht als Symbol ewiger Liebe. Besuchen Sie dieses beeindruckende Marmormausoleum, umgeben von herrlichen Gärten und reflektierenden Wasserbecken. Erleben Sie die atemberaubende Schönheit und das romantische Flair, das diesen Ort zu einem unvergesslichen Erlebnis macht.'
 },
 
@@ -105,7 +105,7 @@ const Data = [
   destTitle: 'Bali',
   location: 'Indonesien',
   grade: 'FERNE ORTE ERLEBEN ',
-  fees: '500€',
+  fees: '3000€',
   description: 'Bali, die „Insel der Götter“ in Indonesien, verzaubert mit traumhaften Stränden, üppigen Reisterrassen und lebendiger Kultur. Entdecken Sie beeindruckende Tempel, genießen Sie köstliche lokale Küche und entspannen Sie in luxuriösen Resorts. Erleben Sie die einzigartige Mischung aus Tradition und Natur, die Bali zu einem unvergesslichen Reiseziel für Erholung macht.'
 }, 
 ]; 
