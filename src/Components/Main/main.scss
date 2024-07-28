@@ -27,9 +27,9 @@
         &::after {
           position: absolute;
           content: '';
-          background: red;
+          background: var(--gradientColor);
           height: 5px;
-          width: 150px !important;
+          width: 44% !important;
           right: 0;
           bottom: 2px;
           z-index: -1;
@@ -72,7 +72,7 @@
   
           &:hover {
             img {
-              transform: scale(2.9);
+              transform: scale(1.2);
             }
           }
         }
@@ -164,9 +164,11 @@
 @media screen and (min-width: 500px) {
   .title {
       font-size: 1.5rem;
+    
 
       &::after {
           width: 155px !important;
+
       }
   }
 
@@ -189,10 +191,3 @@
   }
 }
 
-@media screen and (min-width: 500px) {
-  .secTitle .title {
-      &::after {
-          width: 0 !important;
-      }
-  }
-}
