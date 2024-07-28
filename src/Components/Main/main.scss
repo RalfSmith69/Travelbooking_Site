@@ -27,7 +27,7 @@
         &::after {
           position: absolute;
           content: '';
-          background: var(--SecondaryColor);
+          background: red;
           height: 5px;
           width: 150px !important;
           right: 0;
@@ -72,7 +72,7 @@
   
           &:hover {
             img {
-              transform: scale(1.1);
+              transform: scale(2.9);
             }
           }
         }
@@ -156,37 +156,43 @@
   }
   
 
-  // MEDIA QUERIES  ========================================>
 
 
  
-@media screen and (min-width: 500px){
-    .title{
-        font-size: 1.5rem;
-        &::after{
+// MEDIA QUERIES ========================================>
+
+@media screen and (min-width: 500px) {
+  .title {
+      font-size: 1.5rem;
+
+      &::after {
           width: 155px !important;
-          
-        }
-    }
+      }
+  }
 
-    .secContent{
-        grid-template-columns: repeat(2, 1fr);
+  .secContent {
+      grid-template-columns: repeat(2, 1fr);
 
-        .singleDestination{
-            height: auto;
-            ;
-        }
-    }
-}
-
-@media screen and (min-width: 840px){
-  .secContent{
-    grid-template-columns: repeat(3, 1fr);
-
-    .singleDestination{
-        height: auto;
-    }
+      .singleDestination {
+          height: auto;
+      }
   }
 }
 
+@media screen and (min-width: 840px) {
+  .secContent {
+      grid-template-columns: repeat(3, 1fr);
 
+      .singleDestination {
+          height: auto;
+      }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .secTitle .title {
+      &::after {
+          width: 0 !important;
+      }
+  }
+}
