@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Travelbooking_Site/static/css/main.c5291ca9.css",
+    "main.css": "/Travelbooking_Site/static/css/main.5c6b68ac.css",
     "main.js": "/Travelbooking_Site/static/js/main.8e500c9a.js",
     "static/media/Video.mp4": "/Travelbooking_Site/static/media/Video.4efcbe278d8d061270ed.mp4",
     "static/media/Video_2.mp4": "/Travelbooking_Site/static/media/Video_2.8908eba8feff8920842b.mp4",
@@ -14,11 +14,11 @@
     "static/media/img (1).jpg": "/Travelbooking_Site/static/media/img (1).8bab9abd3b73bc79584f.jpg",
     "static/media/img (4).jpg": "/Travelbooking_Site/static/media/img (4).9122b76b8169dc0974fc.jpg",
     "index.html": "/Travelbooking_Site/index.html",
-    "main.c5291ca9.css.map": "/Travelbooking_Site/static/css/main.c5291ca9.css.map",
+    "main.5c6b68ac.css.map": "/Travelbooking_Site/static/css/main.5c6b68ac.css.map",
     "main.8e500c9a.js.map": "/Travelbooking_Site/static/js/main.8e500c9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5291ca9.css",
+    "static/css/main.5c6b68ac.css",
     "static/js/main.8e500c9a.js"
   ]
 }
