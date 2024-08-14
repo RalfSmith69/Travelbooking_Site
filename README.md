@@ -9,6 +9,12 @@ Dies ist ein tolles groß angesetztes Projekt und wird nach der Präsentation be
 
 ![assets/Screenshot from 2024-08-14 09-22-05.png](https://github.com/RalfSmith69/Travelbooking_Site/blob/main/Screenshot%20from%202024-08-14%2009-22-05.png)
 
+### Verwendete Technologien:
+
+HTML
+SCSS
+REACT
+
 Live Demo: [Travelbooking_Site](https://RalfSmith69.github.io/Travelbooking_Site)
 
 Ralf Schmitz- (mailto: RalfSchmitz@vodafone.de)
