@@ -1,3 +1,7 @@
+## Welcome to my Website
+![assets/Screenshot from 2024-08-14 09-22-05.png](https://github.com/RalfSmith69/Travelbooking_Site/blob/main/Screenshot%20from%202024-08-14%2009-22-05.png)
+
+
 # Mein Solo-Abschlussprojekt als Student am DCI im Modul SPA: 
 ## Eine React-Webseite!
 ### Travelbooking_Site
@@ -11,8 +15,6 @@ Dies ist ein tolles groß angesetztes Projekt und wird nach der Präsentation be
 - **Suchfunktion des zugehörigen Landes und anzeigen der Live Wetterdaten:** Für jede Stadt der Welt die man im Location-Suchfeld eingibt.
 - **Responsive Design:** Optimale Darstellung auf verschiedenen Endgeräten.
 
-## Welcome to my Website
-![assets/Screenshot from 2024-08-14 09-22-05.png](https://github.com/RalfSmith69/Travelbooking_Site/blob/main/Screenshot%20from%202024-08-14%2009-22-05.png)
 
 
 ### Technologien:
