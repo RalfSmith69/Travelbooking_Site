@@ -8,8 +8,8 @@ Dies ist ein tolles groß angesetztes Projekt und wird nach der Präsentation be
 ## Features
 
 - **Klar strukturierte Produktübersicht:** Einfaches Durchsuchen der verfügbaren Reiseziele.
-- **Price RangeFilter:** Einfach durch betätigen eines Schiebereglers den Preis (von 100-5000 €) in der Suchfunktion zu filtern.
-- **SloMo Video Backgrond:** Im Home- und Footerbereich!
+- **Price Range Filter:** Einfach durch betätigen eines Schiebereglers den max. Preis (von 100-5000 €) bestimmen um die Suchergebnisse zu filtern.
+- **SloMo Video Backgrond:** Im Home- und Footerbereich.
 - **AOS (Animate On Scroll):** AOS implemetiert um eine schöne User Expirience zu schaffen.
 - **Suchfunktion des zugehörigen Landes und anzeigen der Live Wetterdaten:** Für jede Stadt der Welt die man im Location-Suchfeld eingibt.
 - **Responsive Design:** Optimale Darstellung auf verschiedenen Endgeräten.
