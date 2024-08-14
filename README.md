@@ -20,8 +20,14 @@ Dies ist ein tolles groß angesetztes Projekt und wird nach der Präsentation be
 
 ### Technologien:
 
-- REACT
-- SCSS
+- React
+- Vite
+- React Bootstrap
+- HTML 5
+- SCSS (Sass)
+- JavaScript (ES6+)
+- JSX (JavaScript XML)
+
 
 
 Live Demo: [Travelbooking_Site](https://RalfSmith69.github.io/Travelbooking_Site)
