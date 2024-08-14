@@ -19,9 +19,9 @@ Dies ist ein tolles groß angesetztes Projekt und wird nach der Präsentation be
 
 ### Technologien:
 
-- HTML 
+- REACT
 - SCSS 
-* [![React][React.js]][React-url]
+
 
 Live Demo: [Travelbooking_Site](https://RalfSmith69.github.io/Travelbooking_Site)
 
