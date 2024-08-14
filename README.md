@@ -20,7 +20,20 @@ Dies ist ein tolles groß angesetztes Projekt und wird nach der Präsentation be
 ### Technologien:
 
 - REACT
-- SCSS 
+- SCSS
+
+  ### Built With
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 Live Demo: [Travelbooking_Site](https://RalfSmith69.github.io/Travelbooking_Site)
