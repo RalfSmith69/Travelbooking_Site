@@ -1,5 +1,3 @@
-
-
 # Mein Solo-Abschlussprojekt als Student am DCI im Modul SPA: 
 ## Eine React-Webseite!
 ### Travelbooking_Site
