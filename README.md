@@ -1,13 +1,11 @@
-## Welcome to my Website
+# Mein Solo-Abschlussprojekt als Student am DCI im Modul SPA: 
+## Eine React-Webseite!
+### Travelbooking_Site
+
 ![assets/Screenshot from 2024-08-14 09-22-05.png](https://github.com/RalfSmith69/Travelbooking_Site/blob/main/Screenshot%20from%202024-08-14%2009-22-05.png)
 
 #### GIF View
 ![assets/Travel_.gif](https://github.com/RalfSmith69/Travelbooking_Site/blob/main/Travel_.gif)
-
-
-# Mein Solo-Abschlussprojekt als Student am DCI im Modul SPA: 
-## Eine React-Webseite!
-### Travelbooking_Site
 
 #### Thema war es eine Reise-Booking-Webseite für die fiktive Online Reiseplattform " fern. " zu erstellen!
 
