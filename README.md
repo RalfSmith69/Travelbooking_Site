@@ -31,7 +31,7 @@ Dies ist ein tolles groß angesetztes Projekt und wird nach der Präsentation be
 - JavaScript (ES6+)
 - JSX (JavaScript XML)
 
-Copyright by Ralf Schmitz
+Copyright by Ralf Schmitz 2024
 
 Mail to: 
 RalfSchmitz@vodafone.de
