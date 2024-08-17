@@ -7,7 +7,7 @@
 #### GIF View
 ![assets/Travel_.gif](https://github.com/RalfSmith69/Travelbooking_Site/blob/main/Travel_.gif)
 
-#### Thema war es eine Reise-Booking-Webseite für die fiktive Online Reiseplattform " fern. " zu erstellen!
+#### Idee war es eine Reise-Booking-Webseite für die fiktive Online Reiseplattform " fern. " zu erstellen!
 
 Dies ist ein tolles groß angesetztes Projekt und wird nach der Präsentation beim Abschluss des SPA Moduls, von mir privat noch weiter aus- und fertig gebaut, da wir für dieses Projekt nur 4 volle Unterrichtstage Zeit hatten. Bei diesem Projekt hatte ich von Anfang an alles in meiner Hand: Gestaltung: Start von Pen&Paper Scartch bis zu Figma Design), FrontEnd UI, UX Coding, ganz zum Schluss BackEnd!
 ## Features
