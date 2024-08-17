@@ -31,12 +31,11 @@ Dies ist ein tolles groß angesetztes Projekt und wird nach der Präsentation be
 - JavaScript (ES6+)
 - JSX (JavaScript XML)
 
-
-
-Live Demo: https://RalfSmith69.github.io/Travelbooking_Site
-
 Copyright by Ralf Schmitz
+
 Mail to: 
 RalfSchmitz@vodafone.de
 
 LinkedIN: https://www.linkedin.com/in/ralf-schmitz-846595322
+
+Projekt Live Demo: https://RalfSmith69.github.io/Travelbooking_Site
