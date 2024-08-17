@@ -33,6 +33,8 @@ Dies ist ein tolles groß angesetztes Projekt und wird nach der Präsentation be
 
 
 
-Live Demo: [Travelbooking_Site](https://RalfSmith69.github.io/Travelbooking_Site)
+Live Demo: https://RalfSmith69.github.io/Travelbooking_Site
 
-Ralf Schmitz- (mailto: RalfSchmitz@vodafone.de)
+Ralf Schmitz
+Mail to: RalfSchmitz@vodafone.de
+LinkedIN: https://www.linkedin.com/in/ralf-schmitz-846595322
